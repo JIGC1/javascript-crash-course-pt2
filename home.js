@@ -65,7 +65,7 @@ function greeting() {
 }
 
 // var name = prompt('What is your name?');
-greeting(name);
+// greeting(name);
 
 // How do arguments work in functions?
 // How do we add two numbers together in a function?
@@ -91,3 +91,11 @@ for (let num = 0; num < 100; num++){
     console.log(num);
 }
 
+// Data types
+let yourAge = 18; // number
+let yourName = 'Bob'; // String
+let name = {first: 'Jane', last: 'Doe'}; //object
+let truth = false; // boolean
+let groceries = ['apple', 'banana', 'oranges']; // Array
+let random; // undefine
+let nothing = null; // value null
