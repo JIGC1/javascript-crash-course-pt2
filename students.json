@@ -1,0 +1,14 @@
+// Array with objects inside of it
+// add a 
+[
+    {
+        "name": "John",
+        "age": "29",
+        "height": 180
+    },
+    {
+        "name": "Jane",
+        "age": "29",
+        "height": 160
+    }
+]
