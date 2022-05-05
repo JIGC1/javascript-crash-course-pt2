@@ -99,3 +99,18 @@ let truth = false; // boolean
 let groceries = ['apple', 'banana', 'oranges']; // Array
 let random; // undefine
 let nothing = null; // value null
+
+// Strings in Javascript (common methods)
+let fruit = 'banana';
+let moreFruits = 'banana\napple';
+console.log(moreFruits); // \n moves the content to a new line
+
+console.log(fruit.length); // gives the number of characters
+console.log(fruit.indexOf('an')); // finds an index of given characters
+console.log(fruit.slice(2,6)); // provides the data within the given values
+console.log(fruit.replace('ban', '123')); // replace
+console.log(fruit.toUpperCase()); // capitalizes
+console.log(fruit.toLowerCase()); // lower case
+console.log(fruit.charAt(2)); // gives character at given position
+console.log(fruit[2]); // same as charAt
+console.log(fruit.split('')) // splits by given character '' will split all characters
